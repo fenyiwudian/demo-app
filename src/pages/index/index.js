@@ -6,7 +6,9 @@ import { Core, Inner, Decline, Hub } from '../../../lib/demo'
 import { a } from '../../../lib/a';
 
 export default () => {
+  
   console.log(Core, Inner, Decline, Hub, a);
+  console.log(process.env);
   return (
     <View className={styles.app}>
       <View className={styles.header}>

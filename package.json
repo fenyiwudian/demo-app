@@ -8,8 +8,8 @@
   "author": "fenyiwudian <674702221@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "remax build -w -t",
-    "build": "cross-env NODE_ENV=production remax build -t"
+    "dev": "cross-env REMAX_APP_TEST_VAR=dev NODE_ENV=development remax build -w -t",
+    "build": "cross-env REMAX_APP_TEST_VAR=prod NODE_ENV=production remax build -t"
   },
   "dependencies": {
     "react": "^16.12.0",
