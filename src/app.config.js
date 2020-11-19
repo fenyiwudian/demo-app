@@ -11,7 +11,7 @@ module.exports.ali = {
 module.exports.wechat = {
   pages,
   window: {
-    navigationBarTitleText: 'Remax Wechat Template',
+    navigationBarTitleText: 'APP DEMO',
     navigationBarBackgroundColor: '#282c34',
   },
 };
