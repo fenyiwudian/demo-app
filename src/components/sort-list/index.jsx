@@ -1,4 +1,5 @@
 import React from 'react';
+import { View} from 'remax/one';
 const initialList = [
   {
     text: '第一项',
